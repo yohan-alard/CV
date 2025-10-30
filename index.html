@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Yohan Alard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            color: #2d3748;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 60px;
+            position: relative;
+            display: blcok;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            flex-shrink: 0;
+        }
+
+        .header-content {
+            flex: 1;
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #ffd89b 0%, #19547b 100%);
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .header .subtitle {
+            font-size: 18px;
+            opacity: 0.95;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            font-size: 14px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .content {
+            padding: 50px 60px;
+        }
+
+        .section {
+            margin-bottom: 45px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color: #667eea;
+            margin-bottom: 25px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #667eea;
+            font-weight: 600;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #764ba2;
+        }
+
+        .about-text {
+            line-height: 1.8;
+            color: #4a5568;
+            font-size: 15px;
+        }
+
+        .experience-item {
+            margin-bottom: 35px;
+            padding-left: 25px;
+            border-left: 3px solid #e2e8f0;
+            position: relative;
+        }
+
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: -7px;
+            top: 5px;
+            width: 11px;
+            height: 11px;
+            background: #667eea;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #667eea;
+        }
+
+        .experience-header {
+            margin-bottom: 12px;
+        }
+
+        .company-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .job-title {
+            font-size: 15px;
+            color: #667eea;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        .period {
+            font-size: 13px;
+            color: #718096;
+            margin-top: 4px;
+        }
+
+        .experience-description {
+            margin-top: 12px;
+            line-height: 1.7;
+            color: #4a5568;
+            font-size: 14px;
+        }
+
+        .experience-description p {
+            margin-bottom: 8px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .skill-category-title {
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .skill-category-content {
+            color: #4a5568;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .education-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #f7fafc;
+            border-radius: 8px;
+            border-left: 4px solid #764ba2;
+        }
+
+        .education-title {
+            font-weight: 600;
+            color: #2d3748;
+            font-size: 15px;
+        }
+
+        .education-school {
+            color: #667eea;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .education-period {
+            color: #718096;
+            font-size: 13px;
+            margin-top: 5px;
+        }
+
+        .languages {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .language-item {
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .language-name {
+            font-weight: 600;
+            color: #2d3748;
+            font-size: 16px;
+        }
+
+        .language-level {
+            color: #667eea;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header, .content {
+                padding: 30px;
+            }
+            .header h1 {
+                font-size: 32px;
+            }
+            .contact-info {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Yohan Alard</h1>
+            <div class="subtitle">
+                <p>Architecte Solution</p>
+                <p>Expert en architecture web, événementielle et transformation numérique</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">📍 5 rue du Pigeonnier, 79270 Vallans</div>
+                <div class="contact-item">✉️ yalard@gmail.com</div>
+                <div class="contact-item">☎️ 07 69 81 63 82</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">À propos de moi !</h2>
+                <p class="about-text">
+                    Architecte et leader technique avec plus de 20 ans d'expérience dans la conception et le développement de systèmes complexes.
+                </p>
+                  <p class="about-text">
+                    Expertise approfondie en architecture web et événementielle, mise en place de pipelines DevOps, microservices, ainsi que la gestion et l'accompagnement d'équipes. 
+                  <p class="about-text">
+                    Passionné par les défis techniques, les contacts humains et les enjeux de la transformation numérique.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Mes Expériences professionnelles</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">Covéa</div>
+                        <div class="job-title">Architecte Solution</div>
+                        <div class="period">Septembre 2025 — Aujourd'hui</div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Réalisation de différents dossiers d'architecture (schéma applicatif et technique)</p>
+                        <p>Etude d'opportunité atour de l'event Driven Architecture</p>
+                        <p>Participation au programme Néoflux (remplacement genesys) sur les aspects automatisation et observabilité</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">MAIF</div>
+                        <div class="job-title">Lead Développeur</div>
+                        <div class="period">Juillet 2020 — Août 2025</div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Développement autour de Kafka, Kafka Streams et la suite ELK.</p>
+                        <p>Conception d'applications réactives (Spring WebFlux, Kafka Reactor, R2JDBC).</p>
+                        <p>Encadrement technique de 5 à 10 développeurs, revue de code, pair programming et animation d'équipe.</p>
+                        <p>Participation aux recrutements, conférences et définition des architectures logicielles.</p>
+                        <p>Réalisation de travaux autour du SIG (api de calcul d'itinéraire, score climatique)</p>
+                        <p>Réalisation de travaux autour SI RH (analytics, dataprep, dataviz, interopérabilité entre les différents progiciels)</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">C.S.B. — Nouméa</div>
+                        <div class="job-title">Leader technique / Architecte logiciel</div>
+                        <div class="period">Septembre 2018 — Mars 2020</div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Pilotage des projets Smails, Little Sister et Tydoc.nc.</p>
+                        <p>Mise en place d'usines logicielles complètes (GitLab CI, Docker, Sonar, Ansible).</p>
+                        <p>Développement d'une application mobile Flutter et d'un chatbot Slack interne.</p>
+                        <p>Encadrement et formation des développeurs</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">MAINCARE SOLUTION — Bordeaux</div>
+                        <div class="job-title">Architecte / Leader technique</div>
+                        <div class="period">Janvier 2018 — Août 2018</div>
+                    </div>
+                    <div class="experience-description">
+                        <p> Refonte d'une application de gestion de résultats de laboratoire.</p>
+                        <p> Gestion de projet (composition de l'équipe, backlog)</p>
+                        <p> Mise en place de processus qualité et accompagnement technique des équipes.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">ISOCEL (SI Leclerc) via ONEPOINT — Bordeaux</div>
+                        <div class="job-title">Architecte logiciel</div>
+                        <div class="period">Mai 2017 — Décembre 2017</div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Support transverse pour 60 développeurs : maintenance du framework interne, expertise front-end et revue de code.</p>
+                        <p>Responsable de la partie front dans l'équipe architecte.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">JOBIJOBA — Pessac</div>
+                        <div class="job-title">Senior Développeur</div>
+                        <div class="period">Février 2017 — Mai 2017</div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Optimisation de l'indexation Elasticsearch pour les offres d'emploi et les CV. Stack : Java, Redis, MongoDB, Python, Docker, React.</p>
+                        <p>Travaux sur le CVCatcher (recherche d'offre inversé), vous l'utilisez probablement sur votre site de recrutement.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">AGFA HEALTHCARE — Artigues-près-Bordeaux</div>
+                        <div class="job-title">Architecte logiciel & Lead développeur</div>
+                        <div class="period">Février 2012 — Février 2017</div>
+                    </div>
+                    <div class="experience-description">
+                        <p>Conception et développement d'Orbis Mobile Edition pour le parcours des médecins et infirmiers.</p>
+                        <p>Gestion du support technique de niveau 2.</p>
+                        <p>Scrum master</p>
+                        <p>Travaux d'architecture pour faire passer l'entreprise en mode mobile/web first</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">THALES SERVICE — Mérignac</div>
+                        <div class="job-title">Concepteur / Développeur</div>
+                        <div class="period">Décembre 2008 — Février 2012</div>
+                    </div>
+                    <div class="experience-description">
+                        Développement d'interfaces d'interopérabilité (projets EDF) et backend pour référentiels comptables.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="company-name">ATOS ORIGIN — Pessac</div>
+                        <div class="job-title">Développeur J2EE</div>
+                        <div class="period">Mars 2004 — Décembre 2008</div>
+                    </div>
+                    <div class="experience-description">
+                        Responsable de lot sur le projet SAFIR (Banque Postale). Conception d'outils de messagerie mobile pour Orange.
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Compétences techniques</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-category-title">Langages</div>
+                        <div class="skill-category-content">Java (8 to 21 ), Python, JavaScript, TypeScript, SQL</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Frameworks</div>
+                        <div class="skill-category-content">Spring Boot, Hibernate, EJB, GWT, Angular, React, Vue</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Bases de données</div>
+                        <div class="skill-category-content">PostgreSQL, Cassandra, MongoDB, Redis</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Broker</div>
+                        <div class="skill-category-content">Kafka (kafka, kafkastream, kafkaconnect), RabbitMq</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">DevOps</div>
+                        <div class="skill-category-content">Docker, GitLab CI/CD, Ansible, Jenkins, SonarQube, Openshift, helm</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Outils</div>
+                        <div class="skill-category-content">Elasticsearch, Kibana, Gatling, Logstash, Swagger</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Formations</h2>
+                <div class="education-item">
+                    <div class="education-title">Ingénieur, Spécialisation Informatique</div>
+                    <div class="education-school">Polytech Lille</div>
+                    <div class="education-period">2001 — 2004</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-title">DUT Génie Électrique et Informatique Industrielle</div>
+                    <div class="education-school">UVHC Valenciennes</div>
+                    <div class="education-period">1999 — 2001</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Langues</h2>
+                <div class="languages">
+                    <div class="language-item">
+                        <div class="language-name">Français</div>
+                        <div class="language-level">Langue maternelle</div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-name">Anglais</div>
+                        <div class="language-level">Courant (technique et conversationnel)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
