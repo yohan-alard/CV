@@ -17,6 +17,7 @@
     {
       "company": "Darva",
       "context": "Freelance",
+      "logo": "logos/darva.jpeg",
       "title": "Leader Technique",
       "period": "Janvier 2025 — Aujourd'hui",
       "summary": "Leader technique sur le projet OFELI (plateforme de facturation électronique). Encadrement de 12 développeurs.",
@@ -25,10 +26,11 @@
         "Encadrement de 12 développeurs : revues de code, analyse d'impact, architecture logicielle",
         "Définition des standards techniques et accompagnement des équipes"
       ],
-      "tags": ["Architecture", "Lead Tech", "Freelance", "Quarkus", "Java21","Apache Camel", "Rancher", "Copilot"]
+      "tags": ["Architecture", "Lead Tech", "Freelance", "Quarkus", "Java21", "Apache Camel", "Rancher", "Copilot"]
     },
     {
       "company": "YalTech",
+      "logo": "logos/yaltech.png",
       "title": "Gérant",
       "period": "Janvier 2025 — Aujourd'hui",
       "summary": "du code avec passion et beaucoup d'IA.",
@@ -40,6 +42,7 @@
     {
       "company": "Covéa",
       "context": null,
+      "logo": "logos/covea.png",
       "title": "Architecte Solution",
       "period": "Septembre 2024 — Aujourd'hui",
       "summary": "Dossiers d'architecture, étude EDA et participation au programme Néoflux (remplacement Genesys).",
@@ -54,6 +57,7 @@
     {
       "company": "MAIF",
       "context": null,
+      "logo": "logos/maif.png",
       "title": "Lead Développeur",
       "period": "Juillet 2020 — Août 2025",
       "summary": "Encadrement d'équipes de 5 à 10 développeurs. Rénovation du puits de données autour de Kafka et la suite ELK.",
@@ -70,6 +74,7 @@
     {
       "company": "C.S.B.",
       "context": "Nouméa",
+      "logo": "logos/csb.jpg",
       "title": "Leader Technique · Architecte Logiciel",
       "period": "Septembre 2018 — Mars 2020",
       "summary": "Pilotage des projets Smails, Little Sister et Tydoc.nc. Mise en place d'usines logicielles complètes.",
@@ -84,6 +89,7 @@
     {
       "company": "Maincare Solution",
       "context": "Bordeaux",
+      "logo": "logos/maincare.png",
       "title": "Architecte · Leader Technique",
       "period": "Janvier 2018 — Août 2018",
       "summary": "Refonte d'une application de gestion de résultats de laboratoire. Gestion de projet et mise en place de processus qualité.",
@@ -97,6 +103,7 @@
     {
       "company": "ISOCEL (SI Leclerc) via Onepoint",
       "context": "Bordeaux",
+      "logo": "logos/isocel.png",
       "title": "Architecte Logiciel",
       "period": "Mai 2017 — Décembre 2017",
       "summary": "Support transverse pour 60 développeurs. Responsable de la partie front dans l'équipe architecte.",
@@ -110,6 +117,7 @@
     {
       "company": "Jobijoba",
       "context": "Pessac",
+      "logo": "logos/jobijoba.png",
       "title": "Senior Développeur R&D",
       "period": "Février 2017 — Mai 2017",
       "summary": "Optimisation de l'indexation des offres d'emploi dans Elasticsearch. Travaux sur le CVCatcher.",
@@ -122,6 +130,7 @@
     {
       "company": "Agfa Healthcare",
       "context": "Artigues-près-Bordeaux",
+      "logo": "logos/agfa.svg",
       "title": "Architecte Logiciel · Lead Développeur",
       "period": "Février 2012 — Février 2017",
       "summary": "Conception et développement d'Orbis Mobile Edition. Scrum master. Travaux d'architecture mobile/web first.",
@@ -136,6 +145,7 @@
     {
       "company": "Thales Service",
       "context": "Mérignac",
+      "logo": "logos/thales.png",
       "title": "Concepteur · Développeur",
       "period": "Décembre 2008 — Février 2012",
       "summary": "Développement d'interfaces d'interopérabilité (projets EDF) et backend pour référentiels comptables.",
@@ -148,6 +158,7 @@
     {
       "company": "Atos Origin",
       "context": "Pessac",
+      "logo": "logos/atos.png",
       "title": "Développeur J2EE",
       "period": "Mars 2004 — Décembre 2008",
       "summary": "Responsable de lot sur le projet SAFIR (Banque Postale). Conception d'outils de messagerie mobile pour Orange.",
