@@ -28,6 +28,16 @@
       "tags": ["Architecture", "Lead Tech", "Freelance", "Quarkus", "Java21","Apache Camel", "Rancher", "Copilot"]
     },
     {
+      "company": "YalTech",
+      "title": "Gérant",
+      "period": "Janvier 2025 — Aujourd'hui",
+      "summary": "du code avec passion et beaucoup d'IA.",
+      "details": [
+        "Disponible pour des missions annexes"
+      ],
+      "tags": ["Gérant", "Freelance"]
+    },
+    {
       "company": "Covéa",
       "context": null,
       "title": "Architecte Solution",
