@@ -25,7 +25,7 @@
         "Encadrement de 12 développeurs : revues de code, analyse d'impact, architecture logicielle",
         "Définition des standards techniques et accompagnement des équipes"
       ],
-      "tags": ["Architecture", "Lead Tech", "Freelance"]
+      "tags": ["Architecture", "Lead Tech", "Freelance", "Quarkus", "Java21","Apache Camel", "Rancher", "Copilot"]
     },
     {
       "company": "Covéa",
@@ -39,7 +39,7 @@
         "Participation au programme Néoflux (remplacement Genesys) sur les aspects automatisation et observabilité",
         "Arbre de choix pour l'hébergement de covéa.com"
       ],
-      "tags": ["Architecture", "EDA", "Observabilité"]
+      "tags": ["Architecture", "EDA", "Résistant aux réunions"]
     },
     {
       "company": "MAIF",
@@ -55,7 +55,7 @@
         "Réalisation de travaux autour du SIG (API de calcul d'itinéraire, score climatique)",
         "Réalisation de travaux autour du SI RH (analytics, dataprep, dataviz, interopérabilité entre les différents progiciels)"
       ],
-      "tags": ["Kafka", "Spring WebFlux", "ELK", "Lead Tech"]
+      "tags": ["Kafka", "Spring WebFlux", "ELK", "Lead Tech", "java21", "react", "formateur"]
     },
     {
       "company": "C.S.B.",
@@ -69,7 +69,7 @@
         "Mise en place d'usines logicielles complètes (GitLab CI, Docker, Sonar, Ansible)",
         "Acculturation aux méthodes DevOps"
       ],
-      "tags": ["DevOps", "GitLab CI", "Architecture", "Formation"]
+      "tags": ["DevOps", "GitLab CI", "Architecture", "Formation", "java", "python"]
     },
     {
       "company": "Maincare Solution",
