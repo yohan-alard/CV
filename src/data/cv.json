@@ -204,6 +204,16 @@
       "category": "Modélisation",
       "icon": "📐",
       "items": ["Archimate", "UML", "Mermaid", "Draw.io", "Miro"]
+    },
+    {
+      "category": "Management",
+      "icon": "🧭",
+      "items": ["Leadership technique", "Mentoring", "Formation", "Code review", "Pair programming", "Recrutement", "Animation d'équipe", "Facilitation"]
+    },
+    {
+      "category": "Agilité",
+      "icon": "🔄",
+      "items": ["Scrum", "Scrum Master", "Kanban", "SAFe", "Backlog management", "Cérémonies agiles"]
     }
   ],
   "education": [
