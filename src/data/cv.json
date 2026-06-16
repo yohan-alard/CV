@@ -1,0 +1,204 @@
+{
+  "identity": {
+    "name": "Yohan Alard",
+    "title": "Leader Technique · Architecte · Lead Développeur",
+    "subtitle": "Expert en architecture web, événementielle et transformation numérique",
+    "email": "yalard@gmail.com",
+    "phone": "07 69 81 63 82",
+    "address": "Vallans, 79270",
+    "photo": "beaugosse.jpg"
+  },
+  "about": [
+    "Leader technique et architecte fort de plus de 20 ans d'expérience dans la conception et le développement de systèmes complexes.",
+    "Je combine une expertise approfondie en architecture web, événementielle, data et sur l'interopérabilité des systèmes. J'ai également une excellente culture DevOps et Agile.",
+    "Curieux et passionné, j'accorde autant d'importance aux enjeux humains qu'aux défis techniques, en accompagnant les équipes vers des solutions innovantes, observables et pérennes au service de la transformation numérique."
+  ],
+  "experiences": [
+    {
+      "company": "Darva",
+      "context": "Freelance",
+      "title": "Leader Technique",
+      "period": "Janvier 2025 — Aujourd'hui",
+      "summary": "Leader technique sur le projet OFELI (plateforme de facturation électronique). Encadrement de 12 développeurs.",
+      "details": [
+        "Leader technique sur le projet OFELI, plateforme de facturation électronique",
+        "Encadrement de 12 développeurs : revues de code, analyse d'impact, architecture logicielle",
+        "Définition des standards techniques et accompagnement des équipes"
+      ],
+      "tags": ["Architecture", "Lead Tech", "Freelance"]
+    },
+    {
+      "company": "Covéa",
+      "context": null,
+      "title": "Architecte Solution",
+      "period": "Septembre 2024 — Aujourd'hui",
+      "summary": "Dossiers d'architecture, étude EDA et participation au programme Néoflux (remplacement Genesys).",
+      "details": [
+        "Réalisation de dossiers d'architecture applicatifs et techniques",
+        "Étude d'opportunité autour de l'Event Driven Architecture",
+        "Participation au programme Néoflux (remplacement Genesys) sur les aspects automatisation et observabilité",
+        "Arbre de choix pour l'hébergement de covéa.com"
+      ],
+      "tags": ["Architecture", "EDA", "Observabilité"]
+    },
+    {
+      "company": "MAIF",
+      "context": null,
+      "title": "Lead Développeur",
+      "period": "Juillet 2020 — Août 2025",
+      "summary": "Encadrement d'équipes de 5 à 10 développeurs. Rénovation du puits de données autour de Kafka et la suite ELK.",
+      "details": [
+        "Encadrement technique de 5 à 10 développeurs, revue de code, pair programming et animation d'équipe",
+        "Participation aux recrutements, conférences et définition des architectures logicielles",
+        "Rénovation complète du puits de données autour de Kafka, Kafka Streams et la suite ELK",
+        "Conception d'applications réactives (Spring WebFlux, Kafka Reactor, R2JDBC) pour la partie orchestration",
+        "Réalisation de travaux autour du SIG (API de calcul d'itinéraire, score climatique)",
+        "Réalisation de travaux autour du SI RH (analytics, dataprep, dataviz, interopérabilité entre les différents progiciels)"
+      ],
+      "tags": ["Kafka", "Spring WebFlux", "ELK", "Lead Tech"]
+    },
+    {
+      "company": "C.S.B.",
+      "context": "Nouméa",
+      "title": "Leader Technique · Architecte Logiciel",
+      "period": "Septembre 2018 — Mars 2020",
+      "summary": "Pilotage des projets Smails, Little Sister et Tydoc.nc. Mise en place d'usines logicielles complètes.",
+      "details": [
+        "Pilotage des projets Smails (envoi de SMS), Little Sister (observabilité des transactions bancaires) et Tydoc.nc (GED)",
+        "Encadrement et formation des développeurs",
+        "Mise en place d'usines logicielles complètes (GitLab CI, Docker, Sonar, Ansible)",
+        "Acculturation aux méthodes DevOps"
+      ],
+      "tags": ["DevOps", "GitLab CI", "Architecture", "Formation"]
+    },
+    {
+      "company": "Maincare Solution",
+      "context": "Bordeaux",
+      "title": "Architecte · Leader Technique",
+      "period": "Janvier 2018 — Août 2018",
+      "summary": "Refonte d'une application de gestion de résultats de laboratoire. Gestion de projet et mise en place de processus qualité.",
+      "details": [
+        "Refonte d'une application de gestion de résultats de laboratoire",
+        "Gestion de projet : composition de l'équipe, backlog, architecture logicielle",
+        "Mise en place de processus qualité et accompagnement technique des équipes"
+      ],
+      "tags": ["Santé", "Architecture", "Qualité"]
+    },
+    {
+      "company": "ISOCEL (SI Leclerc) via Onepoint",
+      "context": "Bordeaux",
+      "title": "Architecte Logiciel",
+      "period": "Mai 2017 — Décembre 2017",
+      "summary": "Support transverse pour 60 développeurs. Responsable de la partie front dans l'équipe architecte.",
+      "details": [
+        "Support transverse pour 60 développeurs : maintenance du framework interne, expertise front-end et revue de code",
+        "Responsable de la partie front dans l'équipe architecte",
+        "Formations et suivi des développeurs CDS"
+      ],
+      "tags": ["Front-end", "Architecture", "Formation"]
+    },
+    {
+      "company": "Jobijoba",
+      "context": "Pessac",
+      "title": "Senior Développeur R&D",
+      "period": "Février 2017 — Mai 2017",
+      "summary": "Optimisation de l'indexation des offres d'emploi dans Elasticsearch. Travaux sur le CVCatcher.",
+      "details": [
+        "Optimisation de l'indexation des offres d'emploi dans Elasticsearch",
+        "Travaux sur le CVCatcher (recherche d'offre inversée)"
+      ],
+      "tags": ["Elasticsearch", "R&D", "Search"]
+    },
+    {
+      "company": "Agfa Healthcare",
+      "context": "Artigues-près-Bordeaux",
+      "title": "Architecte Logiciel · Lead Développeur",
+      "period": "Février 2012 — Février 2017",
+      "summary": "Conception et développement d'Orbis Mobile Edition. Scrum master. Travaux d'architecture mobile/web first.",
+      "details": [
+        "Conception et développement d'Orbis Mobile Edition pour le parcours des médecins et infirmiers",
+        "Gestion du support technique de niveau 2",
+        "Scrum master",
+        "Travaux d'architecture pour faire passer l'entreprise en mode mobile/web first"
+      ],
+      "tags": ["Santé", "Mobile", "Scrum", "Architecture"]
+    },
+    {
+      "company": "Thales Service",
+      "context": "Mérignac",
+      "title": "Concepteur · Développeur",
+      "period": "Décembre 2008 — Février 2012",
+      "summary": "Développement d'interfaces d'interopérabilité (projets EDF) et backend pour référentiels comptables.",
+      "details": [
+        "Développement d'interfaces d'interopérabilité sur les projets EDF",
+        "Backend pour référentiels comptables"
+      ],
+      "tags": ["Java", "Interopérabilité", "EDF"]
+    },
+    {
+      "company": "Atos Origin",
+      "context": "Pessac",
+      "title": "Développeur J2EE",
+      "period": "Mars 2004 — Décembre 2008",
+      "summary": "Responsable de lot sur le projet SAFIR (Banque Postale). Conception d'outils de messagerie mobile pour Orange.",
+      "details": [
+        "Responsable de lot sur le projet SAFIR (Banque Postale)",
+        "Conception d'outils de messagerie mobile pour Orange"
+      ],
+      "tags": ["J2EE", "Banque", "Mobile"]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Langages",
+      "icon": "⌨️",
+      "items": ["Java (8→21)", "Python", "JavaScript", "TypeScript", "SQL"]
+    },
+    {
+      "category": "Frameworks",
+      "icon": "🧩",
+      "items": ["Spring Boot", "Hibernate", "GWT", "Angular", "React", "Vue"]
+    },
+    {
+      "category": "Bases de données",
+      "icon": "🗄️",
+      "items": ["PostgreSQL", "Cassandra", "MongoDB", "Redis"]
+    },
+    {
+      "category": "Messaging",
+      "icon": "📨",
+      "items": ["Kafka", "Kafka Streams", "Kafka Connect", "RabbitMQ"]
+    },
+    {
+      "category": "DevOps",
+      "icon": "🚀",
+      "items": ["Docker", "GitLab CI/CD", "Ansible", "Jenkins", "SonarQube", "OpenShift", "Helm"]
+    },
+    {
+      "category": "Observabilité",
+      "icon": "📊",
+      "items": ["Elasticsearch", "Kibana", "Logstash", "Gatling"]
+    },
+    {
+      "category": "Modélisation",
+      "icon": "📐",
+      "items": ["Archimate", "UML", "Mermaid", "Draw.io", "Miro"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ingénieur, Spécialisation Informatique",
+      "school": "Polytech Lille",
+      "period": "2001 — 2004"
+    },
+    {
+      "degree": "DUT Génie Électrique et Informatique Industrielle",
+      "school": "UVHC Valenciennes",
+      "period": "1999 — 2001"
+    }
+  ],
+  "languages": [
+    { "name": "Français", "level": "Langue maternelle", "flag": "🇫🇷" },
+    { "name": "Anglais", "level": "Courant — technique et conversationnel", "flag": "🇬🇧" }
+  ]
+}
