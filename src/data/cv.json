@@ -1,7 +1,7 @@
 {
   "identity": {
     "name": "Yohan Alard",
-    "title": "Leader Technique · Architecte · Lead Développeur",
+    "title": "Tech Lead · Architecte · Lead Développeur",
     "subtitle": "Expert en architecture web, événementielle et transformation numérique",
     "email": "yalard@gmail.com",
     "phone": "07 69 81 63 82",
@@ -9,7 +9,7 @@
     "photo": "beaugosse.jpg"
   },
   "about": [
-    "Leader technique et architecte fort de plus de 20 ans d'expérience dans la conception et le développement de systèmes complexes.",
+    "Tech Lead et architecte fort de plus de 20 ans d'expérience dans la conception et le développement de systèmes complexes.",
     "Je combine une expertise approfondie en architecture web, événementielle, data et sur l'interopérabilité des systèmes. J'ai également une excellente culture DevOps et Agile.",
     "Curieux et passionné, j'accorde autant d'importance aux enjeux humains qu'aux défis techniques, en accompagnant les équipes vers des solutions innovantes, observables et pérennes au service de la transformation numérique."
   ],
@@ -22,7 +22,7 @@
       "period": "Janvier 2025 — Aujourd'hui",
       "summary": "Leader technique sur le projet OFELI (plateforme de facturation électronique). Encadrement de 12 développeurs.",
       "details": [
-        "Leadership technique sur le projet OFELI, plateforme de facturation électronique",
+        "Tech Lead sur le projet OFELI, plateforme de facturation électronique",
         "Accompagnement et coordination technique d'une équipe de 12 développeurs",
         "Conception et évolution de l'architecture logicielle en lien avec les enjeux fonctionnels et techniques",
         "Affinage et étude d'impact des tickets, sécurisation des choix techniques avant implémentation",
