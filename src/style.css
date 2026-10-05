@@ -463,17 +463,115 @@ a {
 }
 
 /* ── Print ── */
+@page {
+  margin: 10mm 12mm;
+}
+
 @media print {
+  html {
+    font-size: 14px;
+  }
+
   .cv-layout {
     background: white;
     padding: 0;
   }
+
   .cv-card {
     box-shadow: none;
     border-radius: 0;
   }
+
   .cv-nav {
     display: none;
+  }
+
+  .cv-header {
+    padding: 20px 32px 18px;
+  }
+
+  .header-inner {
+    gap: 24px;
+  }
+
+  .header-photo {
+    width: 84px;
+    height: 84px;
+    border-width: 2px;
+  }
+
+  .header-name {
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+  }
+
+  .header-subtitle {
+    margin-bottom: 12px;
+  }
+
+  .header-contacts {
+    gap: 6px 16px;
+  }
+
+  .contact-chip {
+    padding: 3px 10px;
+  }
+
+  .cv-content {
+    padding: 24px 32px;
+  }
+
+  .cv-section {
+    margin-bottom: 22px;
+  }
+
+  .section-heading {
+    margin-bottom: 14px;
+    break-after: avoid;
+  }
+
+  .about-paragraphs {
+    gap: 6px;
+  }
+
+  .about-paragraphs p {
+    line-height: 1.5;
+  }
+
+  .timeline-item {
+    padding-bottom: 16px;
+  }
+
+  .exp-text,
+  .exp-details {
+    margin-top: 6px;
+  }
+
+  .exp-details {
+    gap: 3px;
+  }
+
+  .exp-tags {
+    margin-top: 6px;
+  }
+
+  .about-paragraphs p,
+  .exp-text,
+  .exp-details li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .exp-header,
+  .exp-company,
+  .exp-title {
+    break-after: avoid;
+  }
+
+  .fade-up {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 
