@@ -22,9 +22,18 @@
       "period": "Janvier 2025 — Aujourd'hui",
       "summary": "Leader technique sur le projet OFELI (plateforme de facturation électronique). Encadrement de 12 développeurs.",
       "details": [
-        "Leader technique sur le projet OFELI, plateforme de facturation électronique",
-        "Encadrement de 12 développeurs : revues de code, analyse d'impact, architecture logicielle",
-        "Définition des standards techniques et accompagnement des équipes"
+        "Leadership technique sur le projet OFELI, plateforme de facturation électronique",
+        "Accompagnement et coordination technique d'une équipe de 12 développeurs",
+        "Conception et évolution de l'architecture logicielle en lien avec les enjeux fonctionnels et techniques",
+        "Affinage et étude d'impact des tickets, sécurisation des choix techniques avant implémentation",
+        "Définition et diffusion des standards de développement, patterns et bonnes pratiques d'architecture",
+        "Revues de code et accompagnement des développeurs sur les choix d'implémentation",
+        "Identification des risques techniques, des dettes techniques et des axes d'amélioration",
+        "Accompagnement des équipes dans la résolution de problématiques techniques complexes",
+        "Participation aux décisions structurantes concernant les technologies, frameworks et pratiques de développement",
+        "Mise en place et amélioration des pratiques de qualité logicielle, maintenabilité et robustesse",
+        "Interface entre les équipes de développement, les parties prenantes fonctionnelles et les équipes techniques",
+        "Contribution à la montée en compétence des développeurs et à l'harmonisation des pratiques au sein de l'équipe"
       ],
       "tags": ["Architecture", "Lead Tech", "Freelance", "Quarkus", "Java21", "Apache Camel", "Rancher", "Copilot"]
     },
