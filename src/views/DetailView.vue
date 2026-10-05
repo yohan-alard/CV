@@ -16,7 +16,7 @@
           <ExperienceTimeline :experiences="cv.experiences" :detailed="true" />
         </section>
 
-        <section class="cv-section fade-up fade-up-3">
+        <section class="cv-section section-skills fade-up fade-up-3">
           <h2 class="section-heading"><span class="section-accent"></span>Compétences</h2>
           <SkillsGrid :skills="cv.skills" />
         </section>

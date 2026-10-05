@@ -530,6 +530,10 @@ a {
     break-after: avoid;
   }
 
+  .section-skills {
+    break-before: page;
+  }
+
   .about-paragraphs {
     gap: 6px;
   }
