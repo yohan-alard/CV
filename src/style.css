@@ -175,6 +175,17 @@ a {
   color: var(--primary);
 }
 
+.nav-download {
+  margin-left: auto;
+  background: var(--primary);
+  color: #fff;
+}
+
+.nav-download:hover {
+  background: var(--primary-dark);
+  color: #fff;
+}
+
 /* ── Content ── */
 .cv-content {
   padding: 52px 60px;
