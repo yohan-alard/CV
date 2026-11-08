@@ -240,5 +240,11 @@
   "languages": [
     { "name": "Français", "level": "Langue maternelle", "flag": "🇫🇷" },
     { "name": "Anglais", "level": "Courant — technique et conversationnel", "flag": "🇬🇧" }
+  ],
+  "passions": [
+    { "name": "Moto", "icon": "🏍️" },
+    { "name": "Course à pied", "icon": "🏃" },
+    { "name": "Voyages", "icon": "✈️" },
+    { "name": "Nager avec les tortues", "icon": "🐢" }
   ]
 }

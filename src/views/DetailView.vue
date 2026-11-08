@@ -30,6 +30,16 @@
           <h2 class="section-heading"><span class="section-accent"></span>Langues</h2>
           <LanguageCards :languages="cv.languages" />
         </section>
+
+        <section class="cv-section fade-up fade-up-5">
+          <h2 class="section-heading"><span class="section-accent"></span>Passions</h2>
+          <div class="languages-grid">
+            <div v-for="p in cv.passions" :key="p.name" class="lang-card">
+              <span class="lang-flag">{{ p.icon }}</span>
+              <div class="lang-name">{{ p.name }}</div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   </div>
