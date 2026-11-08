@@ -11,7 +11,7 @@
     "photo": "beaugosse.jpg"
   },
   "about": [
-    "Tech Lead hands-on, avec plus de 20 ans d'expérience en Java : je conçois, je code et j'encadre des équipes de 5 à 12 développeurs sur des plateformes à fort volume (50 000 factures traitées en 12 heures, 100 000 événements Kafka par seconde en pointe).",
+    "Tech Lead hands-on, avec plus de 20 ans d'expérience en Java : je conçois, je code et j'encadre des équipes de développeurs sur des plateformes à fort volume (50 000 factures traitées en 12 heures, 100 000 événements Kafka par seconde en pointe, 20 millions d'utilisateurs).",
     "Expertise en architecture web, événementielle et data, ainsi qu'en interopérabilité des systèmes, avec une solide culture DevOps et Agile. Consultant indépendant, je m'investis sur des missions longues où j'apporte une vraie valeur technique.",
     "J'accorde autant d'importance aux enjeux humains qu'aux défis techniques : standards partagés, revues de code, onboarding et recrutement, pour livrer des solutions observables et pérennes."
   ],
@@ -22,7 +22,7 @@
       "logo": "logos/darva.jpeg",
       "title": "Tech Lead",
       "period": "Janvier 2026 — Aujourd'hui",
-      "summary": "Tech Lead sur le projet OFELI (plateforme de facturation électronique) : encadrement de 12 développeurs, traitement des factures multiplié par 10 et accompagnement de l'audit d'agrément.",
+      "summary": "Tech Lead sur le projet OFELI (plateforme de facturation électronique) : traitement des factures multiplié par 10, scalabilité et accompagnement de l'audit d'agrément.",
       "details": [
         "Montée en charge de la plateforme OFELI : passage de 5 000 factures par jour à 50 000 factures en 12 heures",
         "Amélioration de la scalabilité par la mise en place de verrous avec expiration, paramétrage fin d'Apache Camel et optimisations Java",
@@ -40,10 +40,9 @@
       "logo": "logos/yaltech.png",
       "title": "Gérant",
       "period": "Janvier 2026 — Aujourd'hui",
-      "summary": "Création et direction de ma société de conseil, pour répondre aux appels de mission et rester disponible pour des missions longues.",
+      "summary": "Création et direction de ma société de conseil : structure d'exercice de ma mission chez Darva, et disponibilité pour des missions longues.",
       "details": [
-        "Création et direction de l'entreprise, créée pour répondre aux appels de mission",
-        "Activité de conseil et disponibilité pour des missions longues",
+        "Création et direction de l'entreprise, structure d'exercice de ma mission chez Darva, pour répondre aux appels de mission et rester disponible pour des missions longues",
         "Création d'outils internes en Rust (Ratatui) pour faciliter la gestion administrative"
       ],
       "tags": ["Gérant", "Freelance", "Conseil", "Rust", "Ratatui"]
@@ -59,9 +58,10 @@
         "Réalisation de dossiers d'architecture applicatifs et techniques",
         "Étude d'opportunité autour de l'Event Driven Architecture",
         "Participation au programme Néoflux (remplacement Genesys) sur les aspects automatisation et observabilité",
-        "Arbre de choix pour l'hébergement de covea.com"
+        "Arbre de choix pour l'hébergement de covea.com : décision de migration chez Sens",
+        "Définition des traitements de données dans la plateforme AWS"
       ],
-      "tags": ["Architecture", "EDA"]
+      "tags": ["Architecture", "EDA", "AWS"]
     },
     {
       "company": "MAIF",
@@ -165,9 +165,9 @@
       "items": ["Kafka", "Kafka Streams", "Kafka Connect", "RabbitMQ"]
     },
     {
-      "category": "DevOps",
+      "category": "Cloud & DevOps",
       "icon": "🚀",
-      "items": ["Docker", "GitLab CI/CD", "Ansible", "Jenkins", "SonarQube", "OpenShift", "Helm"]
+      "items": ["Docker", "GitLab CI/CD", "Ansible", "Jenkins", "SonarQube", "Kubernetes", "Rancher", "OpenShift", "Helm", "AWS (notions)"]
     },
     {
       "category": "Observabilité",
