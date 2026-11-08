@@ -19,15 +19,19 @@
       "context": "Freelance",
       "logo": "logos/darva.jpeg",
       "title": "Leader Technique",
-      "period": "Janvier 2025 — Aujourd'hui",
-      "summary": "Leader technique sur le projet OFELI (plateforme de facturation électronique). Encadrement de 12 développeurs.",
+      "period": "Janvier 2026 — Aujourd'hui",
+      "summary": "Leader technique sur le projet OFELI (plateforme de facturation électronique) : encadrement de 12 développeurs, traitement des factures multiplié par 10 et accompagnement de l'audit d'agrément.",
       "details": [
         "Tech Lead sur le projet OFELI, plateforme de facturation électronique",
         "Accompagnement et coordination technique d'une équipe de 12 développeurs",
+        "Montée en charge de la plateforme : passage de 5 000 factures par jour à 50 000 factures en 12 heures",
+        "Amélioration de la scalabilité par la mise en place de verrous avec expiration",
+        "Accompagnement de l'audit gouvernemental pour l'agrément de la plateforme",
         "Conception et évolution de l'architecture logicielle en lien avec les enjeux fonctionnels et techniques",
         "Affinage et étude d'impact des tickets, sécurisation des choix techniques avant implémentation",
         "Définition et diffusion des standards de développement, patterns et bonnes pratiques d'architecture",
         "Revues de code et accompagnement des développeurs sur les choix d'implémentation",
+        "Onboarding de deux nouveaux développeurs",
         "Identification des risques techniques, des dettes techniques et des axes d'amélioration",
         "Accompagnement des équipes dans la résolution de problématiques techniques complexes",
         "Participation aux décisions structurantes concernant les technologies, frameworks et pratiques de développement",
@@ -41,19 +45,21 @@
       "company": "YalTech",
       "logo": "logos/yaltech.png",
       "title": "Gérant",
-      "period": "Janvier 2025 — Aujourd'hui",
-      "summary": "Du code avec passion et beaucoup d'IA.",
+      "period": "Janvier 2026 — Aujourd'hui",
+      "summary": "Création et direction de ma société de conseil, pour répondre aux appels de mission et rester disponible pour des missions longues.",
       "details": [
-        "Disponible pour des missions annexes"
+        "Création et direction de l'entreprise, créée pour répondre aux appels de mission",
+        "Activité de conseil et disponibilité pour des missions longues",
+        "Création d'outils internes en Rust (Ratatui) pour faciliter la gestion administrative"
       ],
-      "tags": ["Gérant", "Freelance"]
+      "tags": ["Gérant", "Freelance", "Conseil", "Rust", "Ratatui"]
     },
     {
       "company": "Covéa",
       "context": null,
       "logo": "logos/covea.png",
       "title": "Architecte Solution",
-      "period": "Septembre 2024 — Décembre 2024",
+      "period": "Septembre 2025 — Décembre 2025",
       "summary": "Dossiers d'architecture, étude EDA et participation au programme Néoflux (remplacement Genesys).",
       "details": [
         "Réalisation de dossiers d'architecture applicatifs et techniques",
@@ -72,8 +78,10 @@
       "summary": "Encadrement d'équipes de 5 à 10 développeurs. Rénovation du puits de données autour de Kafka et la suite ELK.",
       "details": [
         "Encadrement technique de 5 à 10 développeurs, revue de code, pair programming et animation d'équipe",
-        "Participation aux recrutements, conférences et définition des architectures logicielles",
-        "Rénovation complète du puits de données autour de Kafka, Kafka Streams et la suite ELK",
+        "Réalisation d'une cinquantaine d'entretiens techniques (consultants et recrutement), participation aux conférences et à la définition des architectures logicielles",
+        "Rénovation complète du puits de données autour de Kafka, Kafka Streams et la suite ELK, avec des pointes à 100 000 événements Kafka par seconde",
+        "Optimisation des traitements de l'émission annuelle : passage de 10 h à 3 h",
+        "Travaux d'exploitation (ops) : suivi des vitesses de traitement et dépilement des topics Kafka",
         "Conception d'applications réactives (Spring WebFlux, Reactor Kafka, R2DBC) pour la partie orchestration",
         "Réalisation de travaux autour du SIG (API de calcul d'itinéraire, score climatique)",
         "Réalisation de travaux autour du SI RH (analytics, dataprep, dataviz, interopérabilité entre les différents progiciels)"
