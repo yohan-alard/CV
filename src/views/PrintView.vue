@@ -96,16 +96,16 @@ import CompanyLogo from '../components/CompanyLogo.vue'
   width: 210mm;
   min-height: 592mm;
   margin: 0 auto;
-  background: linear-gradient(to right, #1e1b4b 70mm, #fff 70mm);
-  font-size: 9pt;
-  line-height: 1.4;
+  background: linear-gradient(to right, #f5f6ff 70mm, #fff 70mm);
+  font-size: 10.5pt;
+  line-height: 1.45;
   color: #1e293b;
 }
 .pcv h1, .pcv h2, .pcv h3 { margin: 0; }
 .pcv-side {
-  background: #1e1b4b;
-  color: #e0e7ff;
-  font-size: 8.5pt;
+  background: #f5f6ff;
+  color: #334155;
+  font-size: 9.5pt;
 }
 .pcv-side-page {
   height: 296mm;
@@ -121,34 +121,34 @@ import CompanyLogo from '../components/CompanyLogo.vue'
 .pcv-skills { flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
 .pcv-flag { font-size: 13pt; margin-right: 2mm; }
 .pcv-lang, .pcv-passion { display: flex; align-items: center; margin-bottom: 3mm; }
-.pcv-edu-period { color: #a5b4fc; font-size: 8pt; }
-.pcv-photo { width: 34mm; height: 34mm; border-radius: 50%; object-fit: cover; align-self: center; border: 1mm solid rgba(255,255,255,.25); }
-.pcv-side h3 { font-size: 8.5pt; text-transform: uppercase; letter-spacing: .12em; color: #fff; border-bottom: .3mm solid #818cf8; padding-bottom: 1mm; margin-bottom: 2mm; }
+.pcv-edu-period { color: #64748b; font-size: 9pt; }
+.pcv-photo { width: 34mm; height: 34mm; border-radius: 50%; object-fit: cover; align-self: center; border: 1mm solid #c7d2fe; }
+.pcv-side h3 { font-size: 9.5pt; text-transform: uppercase; letter-spacing: .12em; color: var(--c); border-bottom: .3mm solid #a5b4fc; padding-bottom: 1mm; margin-bottom: 2mm; }
 .pcv-contact { list-style: none; padding: 0; margin: 0; display: grid; gap: 1.2mm; word-break: break-word; }
 .pcv-skill { }
-.pcv-skill-cat { font-weight: 600; color: #fff; }
-.pcv-skill-items { color: #c7d2fe; }
+.pcv-skill-cat { font-weight: 600; color: #1e293b; }
+.pcv-skill-items { color: #475569; }
 .pcv-edu { margin-bottom: 4mm; }
-.pcv-edu-degree { font-weight: 600; color: #fff; }
+.pcv-edu-degree { font-weight: 600; color: #1e293b; }
 
 .pcv-main { padding: 9mm 9mm 0 8mm; }
 .pcv-head { border-bottom: .6mm solid var(--c); padding-bottom: 3mm; margin-bottom: 4mm; }
-.pcv-head h1 { font-size: 24pt; line-height: 1.1; letter-spacing: -.01em; }
-.pcv-title { color: var(--c); font-weight: 600; font-size: 11pt; margin-top: 1mm; }
-.pcv-subtitle { color: #64748b; font-size: 9pt; }
-.pcv-main h2 { font-size: 10.5pt; text-transform: uppercase; letter-spacing: .1em; color: var(--c); margin: 4mm 0 2mm; }
+.pcv-head h1 { font-size: 28pt; line-height: 1.1; letter-spacing: -.01em; }
+.pcv-title { color: var(--c); font-weight: 600; font-size: 12.5pt; margin-top: 1mm; }
+.pcv-subtitle { color: #64748b; font-size: 10.5pt; }
+.pcv-main h2 { font-size: 12pt; text-transform: uppercase; letter-spacing: .1em; color: var(--c); margin: 4mm 0 2mm; }
 .pcv-about { margin: 0 0 1.5mm; text-align: justify; }
 .pcv-exp { display: flex; gap: 3mm; padding: 1.8mm 0; border-bottom: .2mm solid #e2e8f0; break-inside: avoid; }
 .pcv-exp:last-child { border-bottom: 0; }
 .pcv-exp-body { flex: 1; min-width: 0; }
 .pcv-exp-top { display: flex; justify-content: space-between; gap: 3mm; align-items: baseline; }
 .pcv-exp-company { font-weight: 700; }
-.pcv-exp-period { color: #64748b; font-size: 8pt; white-space: nowrap; }
+.pcv-exp-period { color: #64748b; font-size: 9.5pt; white-space: nowrap; }
 .pcv-exp-title { color: var(--c); font-weight: 500; }
-.pcv-exp-details { margin: 1mm 0 1.2mm; padding-left: 4mm; font-size: 8.3pt; line-height: 1.35; }
+.pcv-exp-details { margin: 1mm 0 1.2mm; padding-left: 4mm; font-size: 10pt; line-height: 1.4; }
 .pcv-exp-details li { margin-bottom: .4mm; }
 .pcv-tags { display: flex; flex-wrap: wrap; gap: 1mm; }
-.pcv-tags span { background: #eef2ff; color: #3730a3; border-radius: 1mm; padding: .2mm 1.6mm; font-size: 7.2pt; }
+.pcv-tags span { background: #f1f5f9; color: #3730a3; border-radius: 1mm; padding: .3mm 1.8mm; font-size: 8.5pt; }
 
 body:has(.pcv) { background: #fff; }
 @media screen { body:has(.pcv) { background: #e2e8f0; } .pcv { box-shadow: 0 4px 24px rgba(0,0,0,.15); } }
