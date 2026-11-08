@@ -10,7 +10,7 @@
   },
   "about": [
     "Tech Lead et architecte fort de plus de 20 ans d'expérience dans la conception et le développement de systèmes complexes.",
-    "Je combine une expertise approfondie en architecture web, événementielle, data et sur l'interopérabilité des systèmes. J'ai également une excellente culture DevOps et Agile.",
+    "Je combine une expertise approfondie en architecture web, événementielle et data, ainsi qu'en interopérabilité des systèmes. J'ai également une excellente culture DevOps et Agile.",
     "Curieux et passionné, j'accorde autant d'importance aux enjeux humains qu'aux défis techniques, en accompagnant les équipes vers des solutions innovantes, observables et pérennes au service de la transformation numérique."
   ],
   "experiences": [
@@ -35,14 +35,14 @@
         "Interface entre les équipes de développement, les parties prenantes fonctionnelles et les équipes techniques",
         "Contribution à la montée en compétence des développeurs et à l'harmonisation des pratiques au sein de l'équipe"
       ],
-      "tags": ["Architecture", "Lead Tech", "Freelance", "Quarkus", "Java21", "Apache Camel", "Rancher", "Copilot"]
+      "tags": ["Architecture", "Lead Tech", "Freelance", "Quarkus", "Java 21", "Apache Camel", "Rancher", "Copilot"]
     },
     {
       "company": "YalTech",
       "logo": "logos/yaltech.png",
       "title": "Gérant",
       "period": "Janvier 2025 — Aujourd'hui",
-      "summary": "du code avec passion et beaucoup d'IA.",
+      "summary": "Du code avec passion et beaucoup d'IA.",
       "details": [
         "Disponible pour des missions annexes"
       ],
@@ -59,7 +59,7 @@
         "Réalisation de dossiers d'architecture applicatifs et techniques",
         "Étude d'opportunité autour de l'Event Driven Architecture",
         "Participation au programme Néoflux (remplacement Genesys) sur les aspects automatisation et observabilité",
-        "Arbre de choix pour l'hébergement de covéa.com"
+        "Arbre de choix pour l'hébergement de covea.com"
       ],
       "tags": ["Architecture", "EDA", "Résistant aux réunions"]
     },
@@ -74,11 +74,11 @@
         "Encadrement technique de 5 à 10 développeurs, revue de code, pair programming et animation d'équipe",
         "Participation aux recrutements, conférences et définition des architectures logicielles",
         "Rénovation complète du puits de données autour de Kafka, Kafka Streams et la suite ELK",
-        "Conception d'applications réactives (Spring WebFlux, Kafka Reactor, R2JDBC) pour la partie orchestration",
+        "Conception d'applications réactives (Spring WebFlux, Reactor Kafka, R2DBC) pour la partie orchestration",
         "Réalisation de travaux autour du SIG (API de calcul d'itinéraire, score climatique)",
         "Réalisation de travaux autour du SI RH (analytics, dataprep, dataviz, interopérabilité entre les différents progiciels)"
       ],
-      "tags": ["Kafka", "Spring WebFlux", "ELK", "Lead Tech", "java21", "react", "formateur"]
+      "tags": ["Kafka", "Spring WebFlux", "ELK", "Lead Tech", "Java 21", "React", "Formateur"]
     },
     {
       "company": "C.S.B.",
@@ -93,7 +93,7 @@
         "Mise en place d'usines logicielles complètes (GitLab CI, Docker, Sonar, Ansible)",
         "Acculturation aux méthodes DevOps"
       ],
-      "tags": ["DevOps", "GitLab CI", "Architecture", "Formation", "java", "python"]
+      "tags": ["DevOps", "GitLab CI", "Architecture", "Formation", "Java", "Python"]
     },
     {
       "company": "Maincare Solution",
@@ -115,10 +115,10 @@
       "logo": "logos/isocel.png",
       "title": "Architecte Logiciel",
       "period": "Mai 2017 — Décembre 2017",
-      "summary": "Support transverse pour 60 développeurs. Responsable de la partie front dans l'équipe architecte.",
+      "summary": "Support transverse pour 60 développeurs. Responsable de la partie front dans l'équipe d'architecture.",
       "details": [
         "Support transverse pour 60 développeurs : maintenance du framework interne, expertise front-end et revue de code",
-        "Responsable de la partie front dans l'équipe architecte",
+        "Responsable de la partie front dans l'équipe d'architecture",
         "Formations et suivi des développeurs CDS"
       ],
       "tags": ["Front-end", "Architecture", "Formation"]
@@ -127,12 +127,12 @@
       "company": "Jobijoba",
       "context": "Pessac",
       "logo": "logos/jobijoba.png",
-      "title": "Senior Développeur R&D",
+      "title": "Développeur Senior R&D",
       "period": "Février 2017 — Mai 2017",
       "summary": "Optimisation de l'indexation des offres d'emploi dans Elasticsearch. Travaux sur le CVCatcher.",
       "details": [
         "Optimisation de l'indexation des offres d'emploi dans Elasticsearch",
-        "Travaux sur le CVCatcher (recherche d'offre inversée)"
+        "Travaux sur le CVCatcher (recherche d'offres inversée)"
       ],
       "tags": ["Elasticsearch", "R&D", "Search"]
     },
@@ -212,7 +212,7 @@
     {
       "category": "Modélisation",
       "icon": "📐",
-      "items": ["Archimate", "UML", "Mermaid", "Draw.io", "Miro"]
+      "items": ["ArchiMate", "UML", "Mermaid", "Draw.io", "Miro"]
     },
     {
       "category": "Management",
