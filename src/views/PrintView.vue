@@ -8,6 +8,8 @@
           <ul class="pcv-contact">
             <li>✉ {{ cv.identity.email }}</li>
             <li>☎ {{ cv.identity.phone }}</li>
+            <li>in {{ cv.identity.linkedin }}</li>
+            <li>⌥ {{ cv.identity.github }}</li>
             <li>⌖ {{ cv.identity.address }}</li>
           </ul>
         </section>
@@ -61,7 +63,7 @@
       <section>
         <h2>Expériences</h2>
         <article v-for="exp in cv.experiences" :key="exp.company + exp.period" class="pcv-exp">
-          <CompanyLogo :company="exp.company" :logo="exp.logo" :size="30" />
+          <CompanyLogo :company="exp.company" :logo="exp.logo" :label="exp.initials" :size="30" />
           <div class="pcv-exp-body">
             <div class="pcv-exp-top">
               <span class="pcv-exp-company">{{ exp.company }}<template v-if="exp.context"> — {{ exp.context }}</template></span>

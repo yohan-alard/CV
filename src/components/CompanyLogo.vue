@@ -20,11 +20,13 @@ const props = defineProps({
   company: { type: String, required: true },
   logo: { type: String, default: null },
   size: { type: Number, default: 44 },
+  label: { type: String, default: null },
 })
 
 const imgError = ref(false)
 
 const initials = computed(() => {
+  if (props.label) return props.label
   return props.company
     .replace(/[^a-zA-ZÀ-ÿ0-9\s]/g, ' ')
     .split(/\s+/)

@@ -1,45 +1,39 @@
 {
   "identity": {
     "name": "Yohan Alard",
-    "title": "Tech Lead · Architecte · Lead Développeur",
+    "title": "Tech Lead · Lead Développeur",
     "subtitle": "Expert en architecture web, événementielle et transformation numérique",
     "email": "yalard@gmail.com",
     "phone": "07 69 81 63 82",
     "address": "Vallans, 79270",
+    "github": "github.com/yohan-alard",
+    "linkedin": "linkedin.com/in/yohan-alard-5b0a3167",
     "photo": "beaugosse.jpg"
   },
   "about": [
-    "Tech Lead et architecte fort de plus de 20 ans d'expérience dans la conception et le développement de systèmes complexes.",
-    "Je combine une expertise approfondie en architecture web, événementielle et data, ainsi qu'en interopérabilité des systèmes. J'ai également une excellente culture DevOps et Agile.",
-    "Curieux et passionné, j'accorde autant d'importance aux enjeux humains qu'aux défis techniques, en accompagnant les équipes vers des solutions innovantes, observables et pérennes au service de la transformation numérique."
+    "Tech Lead hands-on, avec plus de 20 ans d'expérience en Java : je conçois, je code et j'encadre des équipes de 5 à 12 développeurs sur des plateformes à fort volume (50 000 factures traitées en 12 heures, 100 000 événements Kafka par seconde en pointe).",
+    "Expertise en architecture web, événementielle et data, ainsi qu'en interopérabilité des systèmes, avec une solide culture DevOps et Agile. Consultant indépendant, je m'investis sur des missions longues où j'apporte une vraie valeur technique.",
+    "J'accorde autant d'importance aux enjeux humains qu'aux défis techniques : standards partagés, revues de code, onboarding et recrutement, pour livrer des solutions observables et pérennes."
   ],
   "experiences": [
     {
       "company": "Darva",
       "context": "Freelance",
       "logo": "logos/darva.jpeg",
-      "title": "Leader Technique",
+      "title": "Tech Lead",
       "period": "Janvier 2026 — Aujourd'hui",
-      "summary": "Leader technique sur le projet OFELI (plateforme de facturation électronique) : encadrement de 12 développeurs, traitement des factures multiplié par 10 et accompagnement de l'audit d'agrément.",
+      "summary": "Tech Lead sur le projet OFELI (plateforme de facturation électronique) : encadrement de 12 développeurs, traitement des factures multiplié par 10 et accompagnement de l'audit d'agrément.",
       "details": [
-        "Tech Lead sur le projet OFELI, plateforme de facturation électronique",
-        "Accompagnement et coordination technique d'une équipe de 12 développeurs",
-        "Montée en charge de la plateforme : passage de 5 000 factures par jour à 50 000 factures en 12 heures",
-        "Amélioration de la scalabilité par la mise en place de verrous avec expiration",
-        "Accompagnement de l'audit gouvernemental pour l'agrément de la plateforme",
-        "Conception et évolution de l'architecture logicielle en lien avec les enjeux fonctionnels et techniques",
-        "Affinage et étude d'impact des tickets, sécurisation des choix techniques avant implémentation",
-        "Définition et diffusion des standards de développement, patterns et bonnes pratiques d'architecture",
-        "Revues de code et accompagnement des développeurs sur les choix d'implémentation",
-        "Onboarding de deux nouveaux développeurs",
-        "Identification des risques techniques, des dettes techniques et des axes d'amélioration",
-        "Accompagnement des équipes dans la résolution de problématiques techniques complexes",
-        "Participation aux décisions structurantes concernant les technologies, frameworks et pratiques de développement",
-        "Mise en place et amélioration des pratiques de qualité logicielle, maintenabilité et robustesse",
-        "Interface entre les équipes de développement, les parties prenantes fonctionnelles et les équipes techniques",
-        "Contribution à la montée en compétence des développeurs et à l'harmonisation des pratiques au sein de l'équipe"
+        "Montée en charge de la plateforme OFELI : passage de 5 000 factures par jour à 50 000 factures en 12 heures",
+        "Amélioration de la scalabilité par la mise en place de verrous avec expiration, paramétrage fin d'Apache Camel et optimisations Java",
+        "Accompagnement de l'audit gouvernemental pour l'agrément de la plateforme de facturation électronique",
+        "Encadrement technique d'une équipe de 12 développeurs, dont l'onboarding de deux nouveaux arrivants",
+        "Conception et évolution de l'architecture logicielle, étude d'impact des tickets et sécurisation des choix techniques avant implémentation",
+        "Définition des standards de développement, des patterns et des bonnes pratiques d'architecture, revues de code",
+        "Identification des risques et de la dette technique, participation aux décisions sur les technologies et frameworks",
+        "Interface entre les équipes de développement, les parties prenantes fonctionnelles et les équipes techniques"
       ],
-      "tags": ["Architecture", "Lead Tech", "Freelance", "Quarkus", "Java 21", "Apache Camel", "Rancher", "Copilot"]
+      "tags": ["Architecture", "Tech Lead", "Freelance", "Quarkus", "Java 21", "Apache Camel", "Rancher", "Copilot"]
     },
     {
       "company": "YalTech",
@@ -67,7 +61,7 @@
         "Participation au programme Néoflux (remplacement Genesys) sur les aspects automatisation et observabilité",
         "Arbre de choix pour l'hébergement de covea.com"
       ],
-      "tags": ["Architecture", "EDA", "Résistant aux réunions"]
+      "tags": ["Architecture", "EDA"]
     },
     {
       "company": "MAIF",
@@ -86,17 +80,17 @@
         "Réalisation de travaux autour du SIG (API de calcul d'itinéraire, score climatique)",
         "Réalisation de travaux autour du SI RH (analytics, dataprep, dataviz, interopérabilité entre les différents progiciels)"
       ],
-      "tags": ["Kafka", "Spring WebFlux", "ELK", "Lead Tech", "Java 21", "React", "Formateur"]
+      "tags": ["Kafka", "Spring WebFlux", "ELK", "Tech Lead", "Java 21", "React", "Formateur"]
     },
     {
       "company": "C.S.B.",
       "context": "Nouméa",
       "logo": "logos/csb.jpg",
-      "title": "Leader Technique · Architecte Logiciel",
+      "title": "Tech Lead · Architecte Logiciel",
       "period": "Septembre 2018 — Mars 2020",
       "summary": "Pilotage des projets Smails, Little Sister et Tydoc.nc. Mise en place d'usines logicielles complètes.",
       "details": [
-        "Pilotage des projets Smails (envoi de SMS), Little Sister (observabilité des transactions bancaires) et Tydoc.nc (GED)",
+        "Pilotage de 4 projets, dont Smails (envoi de SMS), Little Sister (observabilité des transactions bancaires) et Tydoc.nc (GED)",
         "Encadrement et formation des développeurs",
         "Mise en place d'usines logicielles complètes (GitLab CI, Docker, Sonar, Ansible)",
         "Acculturation aux méthodes DevOps"
@@ -104,45 +98,20 @@
       "tags": ["DevOps", "GitLab CI", "Architecture", "Formation", "Java", "Python"]
     },
     {
-      "company": "Maincare Solution",
-      "context": "Bordeaux",
-      "logo": "logos/maincare.png",
-      "title": "Architecte · Leader Technique",
-      "period": "Janvier 2018 — Août 2018",
-      "summary": "Refonte d'une application de gestion de résultats de laboratoire. Gestion de projet et mise en place de processus qualité.",
+      "company": "Maincare Solution · ISOCEL · Jobijoba",
+      "context": "Bordeaux · Pessac",
+      "logo": null,
+      "initials": "C",
+      "title": "Architecte · Tech Lead",
+      "period": "Février 2017 — Août 2018",
+      "summary": "Missions de conseil à Bordeaux : refonte d'une application de laboratoire (Maincare), support de 60 développeurs (ISOCEL via Onepoint) et optimisation Elasticsearch (Jobijoba).",
       "details": [
-        "Refonte d'une application de gestion de résultats de laboratoire",
-        "Gestion de projet : composition de l'équipe, backlog, architecture logicielle",
-        "Mise en place de processus qualité et accompagnement technique des équipes"
+        "Maincare Solution (janvier — août 2018) : refonte d'une application de gestion de résultats de laboratoire, composition de l'équipe, backlog, architecture logicielle et processus qualité",
+        "ISOCEL (SI Leclerc) via Onepoint (mai — décembre 2017) : support transverse de 60 développeurs (framework interne, expertise front-end, revue de code)",
+        "ISOCEL : responsable de la partie front dans l'équipe d'architecture, gestion de deux centres de service de 50 personnes chacun, formations et suivi des développeurs CDS",
+        "Jobijoba (février — mai 2017) : optimisation de l'indexation des offres d'emploi dans Elasticsearch et travaux sur le CVCatcher (recherche d'offres inversée)"
       ],
-      "tags": ["Santé", "Architecture", "Qualité"]
-    },
-    {
-      "company": "ISOCEL (SI Leclerc) via Onepoint",
-      "context": "Bordeaux",
-      "logo": "logos/isocel.png",
-      "title": "Architecte Logiciel",
-      "period": "Mai 2017 — Décembre 2017",
-      "summary": "Support transverse pour 60 développeurs. Responsable de la partie front dans l'équipe d'architecture.",
-      "details": [
-        "Support transverse pour 60 développeurs : maintenance du framework interne, expertise front-end et revue de code",
-        "Responsable de la partie front dans l'équipe d'architecture",
-        "Formations et suivi des développeurs CDS"
-      ],
-      "tags": ["Front-end", "Architecture", "Formation"]
-    },
-    {
-      "company": "Jobijoba",
-      "context": "Pessac",
-      "logo": "logos/jobijoba.png",
-      "title": "Développeur Senior R&D",
-      "period": "Février 2017 — Mai 2017",
-      "summary": "Optimisation de l'indexation des offres d'emploi dans Elasticsearch. Travaux sur le CVCatcher.",
-      "details": [
-        "Optimisation de l'indexation des offres d'emploi dans Elasticsearch",
-        "Travaux sur le CVCatcher (recherche d'offres inversée)"
-      ],
-      "tags": ["Elasticsearch", "R&D", "Search"]
+      "tags": ["Architecture", "Front-end", "Qualité", "Formation", "Elasticsearch", "Santé"]
     },
     {
       "company": "Agfa Healthcare",
@@ -152,7 +121,7 @@
       "period": "Février 2012 — Février 2017",
       "summary": "Conception et développement d'Orbis Mobile Edition. Scrum master. Travaux d'architecture mobile/web first.",
       "details": [
-        "Conception et développement d'Orbis Mobile Edition pour le parcours des médecins et infirmiers",
+        "Conception et développement d'Orbis Mobile Edition pour le parcours des médecins et infirmiers, utilisé par environ 20 millions d'utilisateurs via les hôpitaux de Paris et le marché allemand",
         "Gestion du support technique de niveau 2",
         "Scrum master",
         "Travaux d'architecture pour faire passer l'entreprise en mode mobile/web first"
@@ -160,30 +129,18 @@
       "tags": ["Santé", "Mobile", "Scrum", "Architecture"]
     },
     {
-      "company": "Thales Service",
-      "context": "Mérignac",
+      "company": "Thales Service · Atos Origin",
+      "context": "Mérignac · Pessac",
       "logo": "logos/thales.png",
-      "title": "Concepteur · Développeur",
-      "period": "Décembre 2008 — Février 2012",
-      "summary": "Développement d'interfaces d'interopérabilité (projets EDF) et backend pour référentiels comptables.",
+      "title": "Concepteur · Développeur J2EE",
+      "period": "Mars 2004 — Février 2012",
+      "summary": "Début de carrière en SSII et grand compte : responsable de lot sur le projet SAFIR (Banque Postale), outils de messagerie mobile pour Orange, interfaces d'interopérabilité pour EDF.",
       "details": [
-        "Développement d'interfaces d'interopérabilité sur les projets EDF",
-        "Backend pour référentiels comptables"
+        "Thales Service (2008 — 2012) : développement d'interfaces d'interopérabilité sur les projets EDF et backend pour référentiels comptables",
+        "Atos Origin (2004 — 2008) : responsable de lot sur le projet SAFIR (Banque Postale)",
+        "Atos Origin : conception d'outils de messagerie mobile pour Orange"
       ],
-      "tags": ["Java", "Interopérabilité", "EDF"]
-    },
-    {
-      "company": "Atos Origin",
-      "context": "Pessac",
-      "logo": "logos/atos.png",
-      "title": "Développeur J2EE",
-      "period": "Mars 2004 — Décembre 2008",
-      "summary": "Responsable de lot sur le projet SAFIR (Banque Postale). Conception d'outils de messagerie mobile pour Orange.",
-      "details": [
-        "Responsable de lot sur le projet SAFIR (Banque Postale)",
-        "Conception d'outils de messagerie mobile pour Orange"
-      ],
-      "tags": ["J2EE", "Banque", "Mobile"]
+      "tags": ["J2EE", "Java", "Interopérabilité", "Banque", "Mobile", "EDF"]
     }
   ],
   "skills": [
@@ -195,7 +152,7 @@
     {
       "category": "Frameworks",
       "icon": "🧩",
-      "items": ["Quarkus", "Spring Boot", "Hibernate", "Panache", "Quartz", "GWT", "Angular", "React", "Vue"]
+      "items": ["Quarkus", "Apache Camel", "Spring Boot", "Hibernate", "Panache", "Quartz", "Angular", "React", "Vue"]
     },
     {
       "category": "Bases de données",
@@ -216,6 +173,11 @@
       "category": "Observabilité",
       "icon": "📊",
       "items": ["Elasticsearch", "Kibana", "Logstash", "Gatling"]
+    },
+    {
+      "category": "IA",
+      "icon": "🤖",
+      "items": ["GitHub Copilot", "Claude"]
     },
     {
       "category": "Modélisation",

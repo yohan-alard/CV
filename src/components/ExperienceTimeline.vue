@@ -6,7 +6,7 @@
       class="timeline-item"
     >
       <div class="exp-header">
-        <CompanyLogo :company="exp.company" :logo="exp.logo" :size="44" />
+        <CompanyLogo :company="exp.company" :logo="exp.logo" :label="exp.initials" :size="44" />
         <div class="exp-meta">
           <div class="exp-company">
             {{ exp.company }}

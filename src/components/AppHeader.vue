@@ -13,6 +13,12 @@
           <span class="contact-chip">
             <span>☎</span> {{ identity.phone }}
           </span>
+          <a :href="`https://${identity.github}`" class="contact-chip">
+            <span>⌥</span> {{ identity.github }}
+          </a>
+          <a :href="`https://www.${identity.linkedin}`" class="contact-chip">
+            <span>in</span> {{ identity.linkedin }}
+          </a>
           <span class="contact-chip">
             <span>📍</span> {{ identity.address }}
           </span>
