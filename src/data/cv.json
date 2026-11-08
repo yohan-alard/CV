@@ -187,7 +187,7 @@
     {
       "category": "Frameworks",
       "icon": "🧩",
-      "items": ["Spring Boot", "Hibernate", "GWT", "Angular", "React", "Vue"]
+      "items": ["Quarkus", "Spring Boot", "Hibernate", "Panache", "Quartz", "GWT", "Angular", "React", "Vue"]
     },
     {
       "category": "Bases de données",
